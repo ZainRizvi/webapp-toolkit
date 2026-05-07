@@ -67,8 +67,9 @@ Pure prompt skill. No setup.
 ## Layout
 
 ```
-.claude-plugin/plugin.json       # plugin manifest
-marketplace.json                 # marketplace entry (single-plugin repo)
+.claude-plugin/
+  plugin.json                    # plugin manifest
+  marketplace.json               # marketplace entry (single-plugin repo)
 skills/
   frontend-design/SKILL.md       # design skill (adapted from Anthropic)
   dev-browser/                   # browser-automation skill + Node runtime
