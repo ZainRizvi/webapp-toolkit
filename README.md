@@ -1,10 +1,11 @@
 # webapp-toolkit
 
-A Claude Code plugin packaging four opinionated, web-app-flavoured skills as a
-single drop-in install. Companion to
-[`git-workflow-guards`](https://github.com/ZainRizvi/git-workflow-guards) —
-that one ships git/PR-workflow guards, this one ships the web-app-specific
-domain skills you reach for once the repo's basics are in place.
+A Claude Code plugin packaging opinionated, web-app-flavoured skills as a
+single drop-in install. Declares
+[`git-workflow-guards`](https://github.com/ZainRizvi/git-workflow-guards) as
+a dependency, so installing this one transitively pulls in the git/PR-workflow
+guards too. Install `webapp-toolkit` and you get both: the web-app skills
+documented below, plus all of git-workflow-guards' hooks, agents, and skills.
 
 ## Install
 

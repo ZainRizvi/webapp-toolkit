@@ -1,11 +1,17 @@
 {
   "name": "webapp-toolkit",
   "version": "0.1.0",
-  "description": "Opinionated Claude Code skills for web-app developers: distinctive frontend design, persistent dev browser for stateful exploration, Paddle payments integration, Vercel infrastructure setup.",
+  "description": "Opinionated Claude Code skills for web-app developers: distinctive frontend design, persistent dev browser for stateful exploration, Paddle payments integration, Vercel infrastructure setup, SEO. Pulls in git-workflow-guards transitively for git/PR-workflow guards.",
   "author": {
     "name": "Zain Rizvi",
     "url": "https://github.com/ZainRizvi"
   },
   "homepage": "https://github.com/ZainRizvi/webapp-toolkit",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "git-workflow-guards",
+      "marketplace": "git-workflow-guards"
+    }
+  ]
 }
