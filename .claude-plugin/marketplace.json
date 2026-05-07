@@ -8,7 +8,7 @@
     "description": "Opinionated Claude Code skills for web-app developers.",
     "version": "0.1.0"
   },
-  "allowCrossMarketplaceDependenciesOn": ["git-workflow-guards"],
+  "allowCrossMarketplaceDependenciesOn": ["git-workflow-guards", "plugin-embedder"],
   "plugins": [
     {
       "name": "webapp-toolkit",

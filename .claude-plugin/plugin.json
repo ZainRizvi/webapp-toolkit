@@ -12,6 +12,10 @@
     {
       "name": "git-workflow-guards",
       "marketplace": "git-workflow-guards"
+    },
+    {
+      "name": "plugin-embedder",
+      "marketplace": "plugin-embedder"
     }
   ]
 }
