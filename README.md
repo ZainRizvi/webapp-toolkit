@@ -8,15 +8,20 @@ domain skills you reach for once the repo's basics are in place.
 
 ## Install
 
-Add the marketplace and enable the plugin:
+There are two paths. Either way, the install is **a one-time, per-machine action** — Claude Code does not silently install plugins from a project's settings without the user's explicit say-so.
+
+### User-level (just for you, across all repos)
 
 ```bash
-claude /plugin marketplace add ZainRizvi/webapp-toolkit
-claude /plugin install webapp-toolkit
+claude plugin marketplace add ZainRizvi/webapp-toolkit
+claude plugin install webapp-toolkit@webapp-toolkit
 ```
 
-Or — recommended — bake it into your repo's `.claude/settings.json` so every
-contributor gets it automatically on first session:
+The marketplace and plugin are persisted to `~/.claude/`, and every Claude Code session has the plugin enabled.
+
+### Project-level (everyone on a repo gets it)
+
+Commit this into your repo's `.claude/settings.json`:
 
 ```json
 {
@@ -31,8 +36,9 @@ contributor gets it automatically on first session:
 }
 ```
 
-Check that into git, and Claude Code will install/enable the plugin the next
-time anyone opens the repo. No manual install step.
+When a teammate opens the repo with Claude Code for the first time, Claude Code prompts them to trust the marketplace. One click, and the plugin is enabled for that machine — persistent across sessions, no further prompts.
+
+If you'd rather not wait for the prompt, the user-level CLI commands above install the same thing immediately.
 
 ## What ships
 
