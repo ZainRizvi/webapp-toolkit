@@ -48,6 +48,7 @@ If you'd rather not wait for the prompt, the user-level CLI commands above insta
 | `/dev-browser` | Persistent-state browser automation. Use for interactive exploration, ARIA-snapshot discovery of unknown layouts, or multi-step flows where login/cookies must persist between scripts. (For stateless one-shot scripts or full test suites, use the standalone `playwright-skill` plugin instead.) |
 | `/paddle-integration` | Integrate Paddle payments — set up subscriptions, configure webhooks, debug billing issues. Covers sandbox testing and production deployment. |
 | `/vercel-infrastructure` | Set up Vercel projects, configure blob storage, manage environment variables, set up custom domains with wildcard subdomains. Captures the gotchas that bite first-time Vercel users (env var loss, wildcard routing requirements). |
+| `/seo` | Routing skill for SEO work — content writing, keyword strategy, meta tags, structure, authority building, snippets, content planning, freshness, cannibalization detection. Reaches into a set of focused sub-skills based on the task. |
 
 ## First-run setup notes
 
@@ -61,7 +62,7 @@ start instantly. The server runs at `localhost:9222` by default.
 Required: `bun` or `npm`. Recommended: `bun` (faster install, lockfile already
 shipped).
 
-### `/paddle-integration` and `/vercel-infrastructure`
+### `/paddle-integration`, `/vercel-infrastructure`, and `/seo`
 
 These are pure prompt skills with no runtime to install. They guide you through
 the relevant CLI / dashboard / API steps; you supply the credentials.
@@ -86,6 +87,7 @@ skills/
     scripts/
   paddle-integration/SKILL.md
   vercel-infrastructure/SKILL.md
+  seo/                            # routing skill + 10 sub-skill files
 ```
 
 ## Origin
