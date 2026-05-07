@@ -1,0 +1,10 @@
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# dev-browser runtime state — installed/created on first server.sh run
+skills/dev-browser/node_modules/
+skills/dev-browser/tmp/
+skills/dev-browser/profiles/

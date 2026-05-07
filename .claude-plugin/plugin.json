@@ -1,0 +1,11 @@
+{
+  "name": "webapp-toolkit",
+  "version": "0.1.0",
+  "description": "Opinionated Claude Code skills for web-app developers: distinctive frontend design, persistent dev browser for stateful exploration, Paddle payments integration, Vercel infrastructure setup.",
+  "author": {
+    "name": "Zain Rizvi",
+    "url": "https://github.com/ZainRizvi"
+  },
+  "homepage": "https://github.com/ZainRizvi/webapp-toolkit",
+  "license": "MIT"
+}
