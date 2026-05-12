@@ -1,6 +1,6 @@
 {
   "name": "webapp-toolkit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Opinionated Claude Code skills for web-app developers: distinctive frontend design, persistent dev browser for stateful exploration, Paddle payments integration, Vercel infrastructure setup, SEO. Pulls in git-workflow-guards transitively for git/PR-workflow guards.",
   "author": {
     "name": "Zain Rizvi",
@@ -12,10 +12,6 @@
     {
       "name": "git-workflow-guards",
       "marketplace": "git-workflow-guards"
-    },
-    {
-      "name": "plugin-embedder",
-      "marketplace": "plugin-embedder"
     }
   ]
 }
